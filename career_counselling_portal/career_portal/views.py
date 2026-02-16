@@ -1048,7 +1048,7 @@ def ask_gemini(request):
     if request.method == "POST":
         data = json.loads(request.body)
         headers = {"Content-Type": "application/json"}
-        api_key = "AIzaSyCyXwy34sBE-TEzuva6Eu7ON2VuEwwPSt4"
+        api_key = "AIzaSyDFnlx9jS2a4Nwpu1FuK7q8E3aJNgFLpWg"
 
         url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={api_key}"
 
